@@ -32,11 +32,6 @@ button {
     height: 40px;
 }
 
-.middle {
-    width: 526;
-    height: 544 px
-}
-
 .buttons {
     text-align: center;
 }
@@ -211,7 +206,8 @@ button {
 
 .left {
     float: left;
-    width: 33.33%;
+    width: 526;
+    height: 544 px;
 }
 
 .quote {
