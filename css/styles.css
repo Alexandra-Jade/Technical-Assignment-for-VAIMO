@@ -1,12 +1,148 @@
+:root {
+    --primary-colour: #ff6600;
+    --secondary-colour: #999999;
+    --tertiary-colour: #333333;
+    --box-background: #ff66002a;
+}
+
+body {
+    padding: 72 48px;
+}
+
+h1 {
+    color: var(--tertiary-colour);
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    width: 526px;
+    text-align: left;
+}
+
+li {
+    display: inline;
+    color: #ff6600;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+}
+
+.label {
+    display: inline;
+    margin: 30px 0;
+    background: var(--box-background);
+    border-radius: 0 2px 2px 0;
+    width: 106px;
+    height: 20px;
+}
+
+.hotSale {
+    background-color: #99999913;
+    border-radius: 2px;
+    width: 111px;
+    height: 20px;
+    color: var(--secondary-colour);
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+}
+
+.price {
+    color: #ff6600;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.option {
+    color: var(--secondary-colour);
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+}
+
+.twooptions {
+    color: var(--tertiary-colour);
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+}
+
+.minOrder {
+    color: var(--secondary-colour);
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+}
+
+.pastPrice {
+    color: var(--secondary-colour);
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+}
+
+.reviews {
+    color: var(--secondary-colour);
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+}
+
+.buyers {
+    color: var(--tertiary-colour);
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+}
+
+.starsChecked {
+    color: var(--primary-colour);
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+}
+
+
 /* -- stars for review --*/
 
 .starsChecked {
-    color: orange;
+    color: var(--primary-colour);
+}
+
+.logo {
+    width: 76px;
+    height: 40px;
+}
+
+.freeShipping {
+    color: var(--primary-colour);
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
 }
 
 .column {
     float: left;
     width: 33.33%;
+}
+
+.productOptions {
+    width: 25%;
+}
+
+.ShippingCost {
+    display: inline;
 }
 
 
@@ -23,6 +159,9 @@
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
     padding: 10px;
+    background-color: var(--box-background);
+    width: 526px;
+    height: 40px;
 }
 
 
@@ -31,6 +170,13 @@
 .droneImage {
     width: 416px;
     height: 416px;
+}
+
+.button {
+    background-color: var(--primary-colour);
+    border-radius: 20px;
+    width: 258px;
+    height: 40px;
 }
 
 
