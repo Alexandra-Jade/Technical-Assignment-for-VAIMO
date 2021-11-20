@@ -225,12 +225,12 @@ button {
     color: var(--secondary-colour);
 }
 
-.ShippingCost {
-    display: inline;
-}
-
 .shippingDetails {
     width: 50%;
+}
+
+.ShippingCost {
+    margin-left: 45px;
 }
 
 
@@ -240,16 +240,6 @@ button {
     content: "";
     display: table;
     clear: both;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
-    padding: 10px;
-    background-color: var(--box-background);
-    width: 526px;
-    height: 40px;
 }
 
 
