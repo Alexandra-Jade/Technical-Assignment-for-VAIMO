@@ -26,6 +26,27 @@ li {
     text-align: left;
 }
 
+button {
+    border-radius: 20px;
+    width: 258px;
+    height: 40px;
+}
+
+.login {
+    background-color: var(--primary-colour);
+    border: none;
+    color: white;
+}
+
+.contact {
+    color: var(--primary-colour);
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #ff6600;
+    border-radius: 20px;
+    width: 258px;
+    height: 40px;
+}
+
 .banner {
     background-color: #ff660024;
     width: 526px;
@@ -36,7 +57,7 @@ li {
 
 .dividers {
     background-color: rgba(255, 255, 255, 0);
-    box-shadow: inset 0 1px 0 0 #E6E7EB, inset 0 -1px 0 0 #E6E7EB;
+    box-shadow: inset 0 1px 0 0 #e6e7eb, inset 0 -1px 0 0 #e6e7eb;
     width: 526px;
     height: 64px;
     padding: 1px 0px 15px 0px;
@@ -167,7 +188,7 @@ li {
 
 .quote {
     float: right;
-    width: 25%;
+    width: 28%;
 }
 
 .productOptions {
@@ -175,7 +196,7 @@ li {
 }
 
 .options {
-    color: var(--secondary-colour)
+    color: var(--secondary-colour);
 }
 
 .ShippingCost {
@@ -209,13 +230,6 @@ li {
     height: 416px;
 }
 
-.button {
-    background-color: var(--primary-colour);
-    border-radius: 20px;
-    width: 258px;
-    height: 40px;
-}
-
 .footer,
 .discountEnd,
 .discountTimer,
@@ -229,7 +243,7 @@ li {
 
 .discount {
     color: var(--primary-colour);
-    color: #FF6600;
+    color: #ff6600;
     font-family: Roboto;
     font-size: 14px;
     line-height: 16px;
