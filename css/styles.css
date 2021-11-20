@@ -22,9 +22,16 @@ li {
     display: inline;
     color: #ff6600;
     font-family: Roboto;
-    font-size: 12px;
     line-height: 16px;
     text-align: left;
+}
+
+.banner {
+    background-color: #ff660024;
+    width: 526px;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 14px;
 }
 
 .dividers {
@@ -36,11 +43,14 @@ li {
 
 .label {
     display: inline;
-    margin: 30px 0;
-    background: var(--box-background);
-    border-radius: 2px;
-    width: 90px;
-    height: 20px;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.ReadyToShip,
+.InStock,
+.Dispatch {
+    background: #ff660024;
 }
 
 .hotSale {
@@ -139,22 +149,29 @@ li {
     text-align: left;
 }
 
+
+/* -- colums of the page --*/
+
 .column {
     float: left;
     width: 33.33%;
+}
+
+.quote {
+    float: right;
+    width: 25%;
 }
 
 .productOptions {
     width: 25%;
 }
 
-.ShippingCost {
-    display: inline;
+.options {
+    color: var(--secondary-colour)
 }
 
-.quote {
-    float: right;
-    width: 25%;
+.ShippingCost {
+    display: inline;
 }
 
 
@@ -191,68 +208,8 @@ li {
     height: 40px;
 }
 
-
-/* -- quantity box -- */
-
-.quantity {
-    display: inline-block;
-}
-
-.quantity .input-text.qty {
-    width: 35px;
-    height: 39px;
-    padding: 0 5px;
-    text-align: center;
-    background-color: transparent;
-    border: 1px solid #efefef;
-}
-
-.quantity.buttons_added {
-    text-align: left;
-    position: relative;
-    white-space: nowrap;
-    vertical-align: top;
-}
-
-.quantity.buttons_added input {
-    display: inline-block;
-    margin: 0;
-    vertical-align: top;
-    box-shadow: none;
-}
-
-.quantity.buttons_added .minus,
-.quantity.buttons_added .plus {
-    padding: 7px 10px 8px;
-    height: 41px;
-    background-color: #ffffff;
-    border: 1px solid #efefef;
-    cursor: pointer;
-}
-
-.quantity.buttons_added .minus {
-    border-right: 0;
-}
-
-.quantity.buttons_added .plus {
-    border-left: 0;
-}
-
-.quantity.buttons_added .minus:hover,
-.quantity.buttons_added .plus:hover {
-    background: #eeeeee;
-}
-
-.quantity input::-webkit-outer-spin-button,
-.quantity input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    margin: 0;
-}
-
-.quantity.buttons_added .minus:focus,
-.quantity.buttons_added .plus:focus {
-    outline: none;
+.footer {
+    color: var(--secondary-colour);
 }
 
 @media screen and (max-width: 600px) {
