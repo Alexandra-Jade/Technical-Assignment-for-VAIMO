@@ -1,296 +1,292 @@
-:root {
-    --primary-colour: #ff6600;
-    --secondary-colour: #999999;
-    --tertiary-colour: #333333;
-    --box-background: #ff66002a;
-}
-
-body {
-    padding: 72px 48px;
-}
-
-h1 {
-    display: flex;
-    color: var(--tertiary-colour);
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 24px;
-    width: 526px;
-    text-align: left;
-}
-
-li {
-    display: inline;
-    color: #ff6600;
-    font-family: Roboto;
-    line-height: 16px;
-    text-align: left;
-}
-
-button {
-    margin: 5px;
-    border-radius: 20px;
-    width: 258px;
-    height: 40px;
-}
-
-.buttons {
-    text-align: center;
-}
-
-.boxBorder {
-    padding: 20px 10px;
-    box-shadow: 1px 1px rgba(149, 149, 149, 0.176), -0.01em 0 0.7em rgba(149, 149, 149, 0.176);
-    background-color: white;
-    border-radius: 8px;
-    width: 306px;
-    height: 256px;
-}
-
-.droneImage {
-    width: 416px;
-    height: 416px;
-}
-
-.login {
-    background-color: var(--primary-colour);
-    border: none;
-    color: white;
-}
-
-.contact {
-    color: var(--primary-colour);
-    background-color: rgba(255, 255, 255, 0);
-    border: 1px solid #ff6600;
-    border-radius: 20px;
-    width: 258px;
-    height: 40px;
-}
-
-.banner {
-    background-color: #ff660024;
-    width: 526px;
-    height: 40px;
-    font-family: Roboto;
-    font-size: 14px;
-}
-
-.dividers {
-    background-color: rgba(255, 255, 255, 0);
-    box-shadow: inset 0 1px 0 0 #e6e7eb, inset 0 -1px 0 0 #e6e7eb;
-    width: 526px;
-    height: 64px;
-    padding: 1px 0px 15px 0px;
-    line-height: 16px;
-}
-
-.pastPrice {
-    display: flex;
-    margin-top: -10px;
-}
-
-.label {
-    display: inline;
-    font-family: Roboto;
-    font-size: 12px;
-}
-
-.ReadyToShip,
-.InStock,
-.Dispatch {
-    background: #ff660024;
-}
-
-.hotSale {
-    background-color: #99999913;
-    border-radius: 2px;
-    width: 111px;
-    height: 20px;
-    color: var(--secondary-colour);
-    font-family: Roboto;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: left;
-}
-
-.price {
-    color: #ff6600;
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: left;
-}
-
-.option {
-    color: var(--secondary-colour);
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: left;
-}
-
-.twooptions {
-    color: var(--tertiary-colour);
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: left;
-}
-
-.minOrder {
-    color: var(--secondary-colour);
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: left;
-}
-
-.pastPrice {
-    color: var(--secondary-colour);
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: left;
-}
-
-.reviews {
-    color: var(--secondary-colour);
-    font-family: Roboto;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: left;
-}
-
-.buyers {
-    color: var(--tertiary-colour);
-    font-family: Roboto;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: left;
-}
-
-.starsChecked {
-    color: var(--primary-colour);
-    font-family: Roboto;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: left;
-}
-
-
-/* -- stars for review --*/
-
-.starsChecked {
-    color: var(--primary-colour);
-    padding: 1px 0px 15px 0px;
-}
-
-.logo {
-    width: 76px;
-    height: 40px;
-}
-
-.freeShipping {
-    color: var(--primary-colour);
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: left;
-}
-
-
-/* -- colums of the page --*/
-
-.column {
-    float: left;
-    width: 33.33%;
-}
-
-.left {
-    float: left;
-    width: 526;
-    height: 544 px;
-}
-
-.quote {
-    float: right;
-    width: 28%;
-}
-
-.productOptions {
-    width: 25%;
-}
-
-.options {
-    color: var(--secondary-colour);
-}
-
-.shippingDetails {
-    width: 50%;
-}
-
-.ShippingCost {
-    margin-left: 45px;
-}
-
-
-/* Clear floats after the columns */
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-/* -- Image Col -- */
-
-.droneImage {
-    width: 416px;
-    height: 416px;
-}
-
-.footer,
-.discountEnd,
-.discountTimer,
-.ShippingQuote {
-    color: var(--secondary-colour);
-}
-
-.ShippingCost {
-    color: black;
-}
-
-.discount {
-    color: var(--primary-colour);
-    color: #ff6600;
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: left;
-}
-
-@media screen and (max-width: 600px) {
-    h1 {
-        width: 100%;
-    }
-    .label {
-        width: 100%;
-    }
-    .droneImage {
-        width: 350%;
-        height: 350%
-    }
-    .banner,
-    .dividers {
-        width: 100%;
-    }
-    .banner,
-    .freeShipping {
-        font-size: 12px;
-    }
-    .discount,
-    .discountTimer {
-        font-size: 13px;
-    }
-}
+   :root {
+      --primary-colour: #ff6600;
+      --secondary-colour: #999999;
+      --tertiary-colour: #333333;
+      --box-background: #ff66002a;
+  }
+  
+  body {
+      padding: 72px 48px;
+  }
+  
+  h1 {
+      display: flex;
+      color: var(--tertiary-colour);
+      font-family: Roboto;
+      font-size: 16px;
+      line-height: 24px;
+      width: 526px;
+      text-align: left;
+  }
+  
+  li {
+      display: inline;
+      color: #ff6600;
+      font-family: Roboto;
+      line-height: 16px;
+      text-align: left;
+  }
+  
+  button {
+      margin: 5px;
+      border-radius: 20px;
+      width: 258px;
+      height: 40px;
+  }
+  
+  .buttons {
+      text-align: center;
+  }
+  
+  .boxBorder {
+      padding: 20px 10px;
+      box-shadow: 1px 1px rgba(149, 149, 149, 0.176), -0.01em 0 0.7em rgba(149, 149, 149, 0.176);
+      background-color: white;
+      border-radius: 8px;
+      width: 306px;
+      height: 256px;
+  }
+  
+  .droneImage {
+      width: 416px;
+      height: 416px;
+  }
+  
+  .login {
+      background-color: var(--primary-colour);
+      border: none;
+      color: white;
+  }
+  
+  .contact {
+      color: var(--primary-colour);
+      background-color: rgba(255, 255, 255, 0);
+      border: 1px solid #ff6600;
+      border-radius: 20px;
+      width: 258px;
+      height: 40px;
+  }
+  
+  .banner {
+      background-color: #ff660024;
+      width: 526px;
+      height: 40px;
+      font-family: Roboto;
+      font-size: 14px;
+  }
+  
+  .dividers {
+      background-color: rgba(255, 255, 255, 0);
+      box-shadow: inset 0 1px 0 0 #e6e7eb, inset 0 -1px 0 0 #e6e7eb;
+      width: 526px;
+      height: 64px;
+      padding: 1px 0px 15px 0px;
+      line-height: 16px;
+  }
+  
+  .pastPrice {
+      display: flex;
+      margin-top: -10px;
+  }
+  
+  .label {
+      display: inline;
+      font-family: Roboto;
+      font-size: 12px;
+  }
+  
+  .ReadyToShip,
+  .InStock,
+  .Dispatch {
+      background: #ff660024;
+  }
+  
+  .hotSale {
+      background-color: #99999913;
+      border-radius: 2px;
+      width: 111px;
+      height: 20px;
+      color: var(--secondary-colour);
+      font-family: Roboto;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: left;
+  }
+  
+  .price {
+      color: #ff6600;
+      font-family: Roboto;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: left;
+  }
+  
+  .option {
+      color: var(--secondary-colour);
+      font-family: Roboto;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: left;
+  }
+  
+  .twooptions {
+      color: var(--tertiary-colour);
+      font-family: Roboto;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: left;
+  }
+  
+  .minOrder {
+      color: var(--secondary-colour);
+      font-family: Roboto;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: left;
+  }
+  
+  .pastPrice {
+      color: var(--secondary-colour);
+      font-family: Roboto;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: left;
+  }
+  
+  .reviews {
+      color: var(--secondary-colour);
+      font-family: Roboto;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: left;
+  }
+  
+  .buyers {
+      color: var(--tertiary-colour);
+      font-family: Roboto;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: left;
+  }
+  
+  .starsChecked {
+      color: var(--primary-colour);
+      font-family: Roboto;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: left;
+  }
+  /* -- stars for review --*/
+  
+  .starsChecked {
+      color: var(--primary-colour);
+      padding: 1px 0px 15px 0px;
+  }
+  
+  .logo {
+      width: 76px;
+      height: 40px;
+  }
+  
+  .freeShipping {
+      color: var(--primary-colour);
+      font-family: Roboto;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: left;
+  }
+  /* -- colums of the page --*/
+  
+  .column {
+      float: left;
+      width: 33.33%;
+  }
+  
+  .left {
+      float: left;
+      width: 526;
+      height: 544 px;
+  }
+  
+  .quote {
+      float: right;
+      width: 28%;
+  }
+  
+  .productOptions {
+      width: 25%;
+  }
+  
+  .options {
+      color: var(--secondary-colour);
+  }
+  
+  .shippingDetails {
+      width: 50%;
+  }
+  
+  .ShippingCost {
+      margin-left: 45px;
+  }
+  /* Clear floats after the columns */
+  
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  /* -- Image Col -- */
+  
+  .droneImage {
+      width: 416px;
+      height: 416px;
+  }
+  
+  .footer,
+  .discountEnd,
+  .discountTimer,
+  .ShippingQuote {
+      color: var(--secondary-colour);
+  }
+  
+  .ShippingCost {
+      color: black;
+  }
+  
+  .discount {
+      color: var(--primary-colour);
+      color: #ff6600;
+      font-family: Roboto;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: left;
+  }
+  
+  .contactIcon {
+      margin-right: 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+      h1 {
+          width: 100%;
+      }
+      .label {
+          width: 100%;
+      }
+      .droneImage {
+          width: 350%;
+          height: 350%
+      }
+      .banner,
+      .dividers {
+          width: 100%;
+      }
+      .banner,
+      .freeShipping {
+          font-size: 12px;
+      }
+      .discount,
+      .discountTimer {
+          font-size: 13px;
+      }
+  }
