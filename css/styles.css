@@ -145,6 +145,11 @@ li {
     display: inline;
 }
 
+.quote {
+    float: right;
+    width: 25%;
+}
+
 
 /* Clear floats after the columns */
 
