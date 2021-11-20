@@ -6,7 +6,7 @@
 }
 
 body {
-    padding: 72 48px;
+    padding: 72px 48px;
 }
 
 h1 {
@@ -218,8 +218,13 @@ li {
 
 .footer,
 .discountEnd,
-.discountTimer {
+.discountTimer,
+.ShippingQuote {
     color: var(--secondary-colour);
+}
+
+.ShippingCost {
+    color: black;
 }
 
 .discount {
