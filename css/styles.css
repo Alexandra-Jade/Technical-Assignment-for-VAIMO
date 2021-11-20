@@ -40,6 +40,12 @@ li {
     width: 526px;
     height: 64px;
     padding: 1px 0px 15px 0px;
+    line-height: 16px;
+}
+
+.pastPrice {
+    display: flex;
+    margin-top: -10px;
 }
 
 .label {
