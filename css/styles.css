@@ -32,6 +32,29 @@ button {
     height: 40px;
 }
 
+.middle {
+    width: 526;
+    height: 544 px
+}
+
+.buttons {
+    text-align: center;
+}
+
+.boxBorder {
+    padding: 20px 10px;
+    box-shadow: 1px 1px rgba(149, 149, 149, 0.176), -0.01em 0 0.7em rgba(149, 149, 149, 0.176);
+    background-color: white;
+    border-radius: 8px;
+    width: 306px;
+    height: 256px;
+}
+
+.droneImage {
+    width: 416px;
+    height: 416px;
+}
+
 .login {
     background-color: var(--primary-colour);
     border: none;
@@ -186,6 +209,11 @@ button {
     width: 33.33%;
 }
 
+.left {
+    float: left;
+    width: 33.33%;
+}
+
 .quote {
     float: right;
     width: 28%;
@@ -201,6 +229,10 @@ button {
 
 .ShippingCost {
     display: inline;
+}
+
+.shippingDetails {
+    width: 50%;
 }
 
 
