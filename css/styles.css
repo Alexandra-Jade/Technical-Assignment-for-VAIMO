@@ -208,8 +208,19 @@ li {
     height: 40px;
 }
 
-.footer {
+.footer,
+.discountEnd,
+.discountTimer {
     color: var(--secondary-colour);
+}
+
+.discount {
+    color: var(--primary-colour);
+    color: #FF6600;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
 }
 
 @media screen and (max-width: 600px) {
